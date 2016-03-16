@@ -67,4 +67,37 @@
 3. Vacuous Proof
 4. Trivial Proof
 5. Proof by Contradiction
+
+## Week 5
+
+#### This week we had no classes during monday
+
+#### We were then introduced to mathematical induction
+
+#### MATHEMATICAL INDUCTION
+##### a means of proving a theorem by showing that if it is true of any particular case, it is true of the next case in a series, and then showing that it is indeed true in one particular case.
+
+ - We were given an example:
+        - _P(1) P(2) P(3) P(k) P(k+1)_
+    - Steps:
+        1. Basis step: _P(1)_ is shown to be true
+        2. Do the inductive step:
+            "If _P(k+1)_ is true whenever _P(k)_ is true, then _P_ is true for all positive integer."
+    - Example: Prove _P(n) = 1 + 2 + 3 + ... + n = n(n+1)/2_
+
+## Week 6
+* **SUMMATION**
+    - The notation for sum of _a<sub>m</sub>, a<sub>m+1</sub>, ..., a<sub>n</sub>_ is _∑<sup>a</sup><sub>i=m </sub>a<sub>i</sub>_ where _i_ is the index of summation.
+
+
+* **RECURSIVE/INDUCTIVE DEFINITION**
+    - Basis step: Specify the value of the function at zero
+    - Recursive step: Give a rule for finding its value at an integer from its values at smaller integers
+
+* **RECURSIVE ALGORITHMS**
+    - It solves a problem by reducing it to an instance of the same problem with smaller input.
+        - Recall: <u>Algorithm</u> - finite set of precise instructions for performing a computation/solving a problem.
+ integer.
+
+##Week 7
 dismathportfolio-bgcajayon created by Classroom for GitHub
