@@ -100,4 +100,88 @@
  integer.
 
 ##Week 7
+
+* **INTRODUCTION TO SET THEORY**
+    - A _set_ is an unordered collection of distinct objects, which may be anything (including other sets).
+        - {a,b,c,d,e}
+        </br>    ↳ *Set Notation:* curly braces with commas separating out the elements 
+* **Empty Set**
+</br>   ↳ { } = ∅
+    - no elements
+    * **Set Builder Notation**
+    </br>    ↳ {x | some property x satisfies}
+
+##### SET IDENTITIES TABLE
+|  **LAW**  |  **IDENTITY**  |
+| :------: | :-----------------------------: |
+|  _Identity Laws_  |  A ⋂ U ≡ A  <br>  A ⋃ ∅ ≡ A  |
+|  _Domination Laws_  |  A ⋃ U ≡ U  <br>  A ⋂ ∅ ≡ ∅  |
+|  _Idempotent Laws_  |  A ⋃ A ≡ A  <br>  A ⋂ A ≡ A  |
+|  _Complementation Law_  |  (A¯)‾ ≡ A  |
+|  _Commutative Laws_  |  A ⋃ B ≡ B ⋃ A  <br>  A ⋂ B ≡ B ⋂ A  |
+| _Associative Laws_  |  A ⋃ (B ⋃ C) ≡ (A ⋃ B) ⋃ C  <br>  A ⋂ (B ⋂ C) ≡ (A ⋂ B) ⋂ C  |
+|  _Distributive Laws_  |  A ⋃ (B ⋂ C) ≡ (A ⋃ B) ⋂ (A ⋃ C) <br>  A ⋂ (B ⋃ C) ≡ (A ⋂ B) ⋃ (A ⋂ C)  |
+|  _De Morgan's Laws_  |  (A ⋂ B)‾ ≡ A‾ ⋃ B‾  <br>  (A ⋃ B)‾ ≡ A‾ ⋂ B‾  |
+|  _Absorption Laws_  |  A ⋃ (A ⋂ B) ≡ A  <br>  A ⋂ (A ⋃ B) ≡ A  |
+|  _Complement Laws_  |  A ⋃ A‾ ≡ U  <br>  A ⋂ A‾ ≡ ∅  |
+
+- **SUBSETS**: A set _S_ is a subset of a set _T_ (denotes S ⊆ T) if all elements of _S_ are also elements of _T_.
+- **POWER SET**: A set of all subsets.
+- **CARDINALITY**: The number of element it contains. If _S_ is a set, we denote its cardinality by writing |S|.
+    - **Infinite Cardinalities**: alaph-null (0,1,2,3,...)
+
+* **FUNCTIONS**
+    - _A_ & _B_ are sets
+    -  A function _f_ from _A_ to _B_ is an assignment of exactly one element of _B_ to each element of _A_.
+    -  Functions are also called MAPPINGS or TRANSFORMATIONS.
+        - f: A to B </br>
+            ↳ A: domain </br>
+            ↳ B: co-domain
+        - **Range** - actually occuring values
+
+* **IMAGE**
+    - If _f(a) = b_, _b- is the image of _A_.
+    - The range of _f_ is the set of all images of elements of _a_.
+
+* **TYPES OF FUNCTIONS**
+    - One - to - one Function (_Injection_)</br>
+        ↳ functions that never assign the same value to two different domain elements.
+    - Onto Function (_Surjective_)</br>
+        ↳ functions have equal range & co-domain.
+    - One - to - one Correspondence (_Bijection_)</br>
+        ↳ function is both one - to - one and onto.
+
+## Week 8:
+
+* **ALGORITHMS**
+    - A finite set of precise instructions for performing a computation or for solving a problem.
+    - **Properties of Algorithms**: </br>
+        ⇾ _Input_ - has input values from a specified set </br>
+        ⇾ _Output_ - solution to the problem </br>
+        ⇾ _Definiteness_ - defined precisely </br>
+        ⇾ _Correctness_ - produce the correct output values </br>
+        ⇾ _Finiteness_ - produce the desired output </br>
+        ⇾ _Effectiveness_ - perform exactly and in a finite amount of time </br>
+        ⇾ _Generality_ - applicable for all problems of the desired form
+* **PSEUDOCODE**
+    - high - level desciption of an algorithm that uses the structural conventions of a programming language 
+    - intended for human reading
+    - **Preconditions** - describe valid input
+    - **Postconditions** - conditions that the output should satisfy
+    
+    
+### Week 9:
+
+* **SEARCHING ALGORITHMS** </br>
+    ↳ Problem of locating an algorithm in an ordered list
+    - **Binary Search** - comparing the middle values of a list then repeated until the desired output is found.
+
+* **SORTING ALGORITHMS** </br>
+    ↳ Problem of assorting elements into increasing order
+    - **Bubble Sort** - compares the first two elements then interchanging them if they are in the incorrect order.
+    - **Insertion Sort** - compares the second element with the first and inserts it before the first element if it is less. Otherwise, it is inserted after the first element.
+
+* **GREEDY ALGORITHMS** </br>
+    ↳ Algorithms that make what seems to be the "best" choice at each step.
+
 dismathportfolio-bgcajayon created by Classroom for GitHub
