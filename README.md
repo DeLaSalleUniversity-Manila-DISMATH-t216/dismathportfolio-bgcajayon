@@ -1,5 +1,5 @@
 # dismathportfolio-bgcajayon
-## Week 1
+### Week 1
 ##### This week we were introduced to the basics of dismath
 
 * Propositions - declarative sentence. EITHER true or false
@@ -24,7 +24,7 @@
 
 
 
-## Week 2
+### Week 2
 ##### This week we started going deep in dismath, AND IT IS VERY CONFUSING but deceptively entertaining.
   
 ##### Propositional equivalences  ( Apparently i can't or i just don't know how to input special characters)
@@ -41,7 +41,7 @@
   * 8. ABSORPTION LAWS
   * 9. NEGATION LAWS
 
-## Week 3
+### Week 3
 
 ##### This week we started seeing life in a very different way we're not sure if superman does exist or not.
 
@@ -57,7 +57,7 @@
   * 7. CONJUNCTION
   * 8. Resolution
 
-## Week 4
+### Week 4
 
 ##### This week we started proving algebraic equations
 
@@ -68,7 +68,7 @@
 4. Trivial Proof
 5. Proof by Contradiction
 
-## Week 5
+### Week 5
 
 #### This week we had no classes during monday
 
@@ -85,7 +85,7 @@
             "If _P(k+1)_ is true whenever _P(k)_ is true, then _P_ is true for all positive integer."
     - Example: Prove _P(n) = 1 + 2 + 3 + ... + n = n(n+1)/2_
 
-## Week 6
+### Week 6
 * **SUMMATION**
     - The notation for sum of _a<sub>m</sub>, a<sub>m+1</sub>, ..., a<sub>n</sub>_ is _∑<sup>a</sup><sub>i=m </sub>a<sub>i</sub>_ where _i_ is the index of summation.
 
@@ -99,7 +99,7 @@
         - Recall: <u>Algorithm</u> - finite set of precise instructions for performing a computation/solving a problem.
  integer.
 
-##Week 7
+###Week 7
 
 * **INTRODUCTION TO SET THEORY**
     - A _set_ is an unordered collection of distinct objects, which may be anything (including other sets).
@@ -232,9 +232,9 @@ ___
     - _Kuratowski's Theorem_ - nonplanar if and only if it contains a subgraph homeophobic to K<sub>3,3</sub> and K<sub>5</sub>
 ___
 
-*** QUIZ 3 - Probably everyone's most highest quiz except for rain
+### QUIZ 3 - Probably everyone's most highest quiz except for rain
 
-*** Week 13:
+### Week 13:
 - Last week of lessons before finals!
 
 * **Graph Coloring**
